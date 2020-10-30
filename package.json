@@ -1,6 +1,6 @@
 {
   "name": "chrt",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Chrt is a library for creating charts in the most fun way.",
   "main": "dist/chrt.js",
   "module": "index.js",
@@ -10,7 +10,7 @@
     }
   },
   "scripts": {
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "build": "rollup -c",
     "lint": "eslint index.js --fix",
     "watch": "npm-watch"
