@@ -56,15 +56,15 @@
     "index.js"
   ],
   "dependencies": {
-    "chrt-annotation": "0.0.3",
-    "chrt-axis": "0.0.5",
-    "chrt-bars": "0.0.5",
+    "chrt-annotation": "0.0.4",
+    "chrt-axis": "0.0.6",
+    "chrt-bars": "0.0.6",
     "chrt-core": "0.0.6",
-    "chrt-grid": "0.0.5",
+    "chrt-grid": "0.0.7",
     "chrt-interpolations": "0.0.1",
-    "chrt-label": "0.0.5",
-    "chrt-line": "0.0.4",
-    "chrt-markers": "0.0.3",
-    "chrt-points": "0.0.3"
+    "chrt-label": "0.0.6",
+    "chrt-line": "0.0.5",
+    "chrt-markers": "0.0.4",
+    "chrt-points": "0.0.4"
   }
 }
