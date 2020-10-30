@@ -2,11 +2,12 @@ import commonjs from 'rollup-plugin-commonjs';
 import { uglify } from 'rollup-plugin-uglify';
 import resolve from 'rollup-plugin-node-resolve';
 import babel from '@rollup/plugin-babel';
+import json from '@rollup/plugin-json';
 import {terser} from "rollup-plugin-terser";
 import * as meta from "./package.json";
 
 const config = {
-  input: "src/index.js",
+  input: "index.js",
   external: Object.keys(meta.dependencies || {}).filter(key => /^chrt-/.test(key)),
   output: {
     file: `dist/${meta.name}.js`,
@@ -19,6 +20,7 @@ const config = {
     globals: Object.assign({}, ...Object.keys(meta.dependencies || {}).filter(key => /^chrt-/.test(key)).map(key => ({[key]: "chrt"}))),
   },
   plugins: [
+    json(),
     commonjs(),
     resolve(),
     babel({

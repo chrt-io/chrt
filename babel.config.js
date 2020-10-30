@@ -6,7 +6,7 @@ module.exports = {
         [
           'babel-plugin-root-import',
           {
-            rootPathSuffix: './src/',
+            rootPathSuffix: './',
             rootPathPrefix: '~/'
           }
         ]
@@ -25,7 +25,7 @@ module.exports = {
     [
       'babel-plugin-root-import',
       {
-        rootPathSuffix: './src/',
+        rootPathSuffix: './',
         rootPathPrefix: '~/'
       }
     ]

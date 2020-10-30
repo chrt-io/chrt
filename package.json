@@ -1,21 +1,18 @@
 {
-  "name": "chrt-line",
-  "version": "0.0.4",
-  "description": "Line chart component for Chrt",
-  "main": "dist/chrt-line.js",
-  "module": "src/index.j",
+  "name": "chrt",
+  "version": "0.0.1",
+  "description": "Chrt is a library for creating charts in the most fun way.",
+  "main": "dist/chrt.js",
+  "module": "index.js",
   "watch": {
     "build": {
-      "patterns": [
-        "src"
-      ],
       "extensions": "js,jsx"
     }
   },
   "scripts": {
     "test": "jest",
     "build": "rollup -c",
-    "lint": "eslint src --fix",
+    "lint": "eslint index.js --fix",
     "watch": "npm-watch"
   },
   "husky": {
@@ -26,22 +23,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/chrt/exploration.git"
+    "url": "git+ssh://git@gitlab.com/chrt/chrt.git"
   },
   "author": "chrt",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/chrt/exploration/issues"
+    "url": "https://gitlab.com/chrt/chrt/issues"
   },
   "homepage": "chrt.io",
-  "dependencies": {
-    "chrt-core": "^0.0.6"
-  },
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@babel/plugin-transform-modules-commonjs": "^7.12.1",
     "@babel/preset-env": "^7.12.1",
     "@rollup/plugin-babel": "^5.2.1",
+    "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^10.0.0",
     "babel-jest": "^26.6.1",
     "babel-plugin-root-import": "^6.6.0",
@@ -58,6 +53,18 @@
   },
   "files": [
     "dist/**/*.js",
-    "src/**/*.js"
-  ]
+    "index.js"
+  ],
+  "dependencies": {
+    "chrt-annotation": "0.0.3",
+    "chrt-axis": "0.0.5",
+    "chrt-bars": "0.0.5",
+    "chrt-core": "0.0.6",
+    "chrt-grid": "0.0.5",
+    "chrt-interpolations": "0.0.1",
+    "chrt-label": "0.0.5",
+    "chrt-line": "0.0.4",
+    "chrt-markers": "0.0.3",
+    "chrt-points": "0.0.3"
+  }
 }
