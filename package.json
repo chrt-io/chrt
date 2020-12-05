@@ -1,6 +1,6 @@
 {
   "name": "chrt",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Chrt is a library for creating charts in the most fun way.",
   "main": "dist/chrt.js",
   "module": "index.js",
