@@ -3,6 +3,7 @@
   "version": "0.0.8",
   "description": "Chrt is a library for creating charts in the most fun way.",
   "main": "dist/chrt.js",
+  "unpkg": "dist/chrt.min.js",
   "module": "index.js",
   "watch": {
     "build": {
