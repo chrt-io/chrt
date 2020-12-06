@@ -10,5 +10,6 @@ export * from 'chrt-markers';
 export * from 'chrt-annotation';
 export * from 'chrt-interpolations';
 
-import Chrt from 'chrt-core';
-export default Chrt;
+// TEMPORARY REMOVED THE DEFAULT Chrt() from chrt
+// import Chrt from 'chrt-core';
+// export default Chrt;
