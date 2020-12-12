@@ -33,9 +33,9 @@
   },
   "homepage": "chrt.io",
   "devDependencies": {
-    "@babel/core": "^7.12.9",
+    "@babel/core": "^7.12.10",
     "@babel/plugin-transform-modules-commonjs": "^7.12.1",
-    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-env": "^7.12.10",
     "@rollup/plugin-babel": "^5.2.2",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^11.0.0",
@@ -57,9 +57,9 @@
   ],
   "dependencies": {
     "chrt-annotation": "^0.0.4",
-    "chrt-axis": "^0.0.6",
+    "chrt-axis": "^0.0.7",
     "chrt-bars": "^0.0.7",
-    "chrt-core": "^0.0.14",
+    "chrt-core": "^0.0.15",
     "chrt-grid": "^0.0.9",
     "chrt-interpolations": "^0.0.2",
     "chrt-label": "^0.0.7",
