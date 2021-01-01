@@ -63,7 +63,7 @@
     "chrt-grid": "^0.0.10",
     "chrt-interpolations": "^0.0.5",
     "chrt-label": "^0.0.8",
-    "chrt-line": "^0.0.9",
+    "chrt-line": "^0.0.10",
     "chrt-markers": "^0.0.8",
     "chrt-points": "^0.0.6"
   }
