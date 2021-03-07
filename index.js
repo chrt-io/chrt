@@ -1,4 +1,4 @@
-export {version} from './package.js';
+export {version} from './dist/package.js';
 export * from 'chrt-core';
 export * from 'chrt-axis';
 export * from 'chrt-grid';
