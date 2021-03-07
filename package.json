@@ -13,7 +13,7 @@
   },
   "scripts": {
     "test": "jest --passWithNoTests",
-    "build": "rollup -c",
+    "build": "rm -rf dist && mkdir dist && json2module package.json > dist/package.js && rollup -c",
     "lint": "eslint index.js --fix",
     "watch": "npm-watch"
   },
@@ -45,6 +45,7 @@
     "eslint": "^7.20.0",
     "husky": "~4.3.0",
     "jest": "^26.6.3",
+    "json2module": "0.0.3",
     "npm-watch": "^0.7.0",
     "rollup": "^2.39.0",
     "rollup-plugin-commonjs": "^10.1.0",
