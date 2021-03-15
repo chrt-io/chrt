@@ -12,6 +12,7 @@
     }
   },
   "scripts": {
+    "pretest": "rimraf dist && mkdir dist && json2module package.json > dist/package.js && rollup -c",
     "test": "jest --passWithNoTests",
     "build": "rimraf dist && mkdir dist && json2module package.json > dist/package.js && rollup -c",
     "lint": "eslint index.js --fix",
@@ -59,15 +60,15 @@
     "index.js"
   ],
   "dependencies": {
-    "chrt-annotation": "^0.0.8",
-    "chrt-axis": "^0.0.18",
-    "chrt-bars": "^0.0.15",
-    "chrt-core": "^0.0.25",
-    "chrt-grid": "^0.0.12",
-    "chrt-interpolations": "^0.0.5",
-    "chrt-label": "^0.0.15",
-    "chrt-line": "^0.0.14",
-    "chrt-markers": "^0.0.9",
-    "chrt-points": "^0.0.8"
+    "chrt-annotation": "^0.0.11",
+    "chrt-axis": "^0.0.20",
+    "chrt-bars": "^0.0.18",
+    "chrt-core": "^0.0.26",
+    "chrt-grid": "^0.0.15",
+    "chrt-interpolations": "^0.0.6",
+    "chrt-label": "^0.0.18",
+    "chrt-line": "^0.0.17",
+    "chrt-markers": "^0.0.12",
+    "chrt-points": "^0.0.11"
   }
 }
