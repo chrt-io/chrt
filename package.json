@@ -61,9 +61,9 @@
   ],
   "dependencies": {
     "chrt-annotation": "^0.0.11",
-    "chrt-axis": "^0.0.20",
+    "chrt-axis": "^0.0.21",
     "chrt-bars": "^0.0.18",
-    "chrt-core": "^0.0.26",
+    "chrt-core": "^0.0.27",
     "chrt-grid": "^0.0.15",
     "chrt-interpolations": "^0.0.6",
     "chrt-label": "^0.0.18",
