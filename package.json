@@ -61,13 +61,13 @@
   ],
   "dependencies": {
     "chrt-annotation": "^0.0.11",
-    "chrt-axis": "^0.0.23",
+    "chrt-axis": "^0.0.24",
     "chrt-bars": "^0.0.18",
     "chrt-core": "^0.0.27",
     "chrt-grid": "^0.0.15",
     "chrt-interpolations": "^0.0.6",
     "chrt-label": "^0.0.18",
-    "chrt-line": "^0.0.17",
+    "chrt-line": "^0.0.18",
     "chrt-markers": "^0.0.12",
     "chrt-points": "^0.0.11"
   }
