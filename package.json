@@ -60,7 +60,7 @@
     "index.js"
   ],
   "dependencies": {
-    "chrt-annotation": "^0.0.11",
+    "chrt-annotation": "^0.0.12",
     "chrt-axis": "^0.0.24",
     "chrt-bars": "^0.0.18",
     "chrt-core": "^0.0.27",
