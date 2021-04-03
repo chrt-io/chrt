@@ -61,7 +61,7 @@
   ],
   "dependencies": {
     "chrt-annotation": "^0.0.12",
-    "chrt-axis": "^0.0.24",
+    "chrt-axis": "^0.0.25",
     "chrt-bars": "^0.0.18",
     "chrt-core": "^0.0.27",
     "chrt-grid": "^0.0.15",
