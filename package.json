@@ -61,15 +61,16 @@
     "index.js"
   ],
   "dependencies": {
-    "chrt-annotation": "^0.0.14",
-    "chrt-axis": "^0.0.29",
-    "chrt-bars": "^0.0.22",
-    "chrt-core": "^0.0.30",
-    "chrt-grid": "^0.0.17",
+    "chrt-annotation": "^0.0.15",
+    "chrt-axis": "^0.0.31",
+    "chrt-bars": "^0.0.23",
+    "chrt-core": "^0.0.31",
+    "chrt-grid": "^0.0.18",
     "chrt-interpolations": "^0.0.7",
-    "chrt-label": "^0.0.21",
-    "chrt-line": "^0.0.20",
-    "chrt-markers": "^0.0.14",
-    "chrt-points": "^0.0.15"
+    "chrt-label": "^0.0.22",
+    "chrt-line": "^0.0.21",
+    "chrt-markers": "^0.0.15",
+    "chrt-points": "^0.0.17",
+    "chrt-set": "0.0.1"
   }
 }
