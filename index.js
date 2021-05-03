@@ -7,6 +7,7 @@ export * from 'chrt-bars';
 export * from 'chrt-points';
 export * from 'chrt-label';
 export * from 'chrt-markers';
+export * from 'chrt-set';
 export * from 'chrt-annotation';
 export * from 'chrt-interpolations';
 
