@@ -10,6 +10,7 @@ export * from 'chrt-markers';
 export * from 'chrt-set';
 export * from 'chrt-annotation';
 export * from 'chrt-interpolations';
+export * from 'chrt-dotplot';
 
 // TEMPORARY REMOVED THE DEFAULT Chrt() from chrt
 // import Chrt from 'chrt-core';
