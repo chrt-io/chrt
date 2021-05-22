@@ -44,7 +44,6 @@
     "@rollup/plugin-node-resolve": "^13.0.0",
     "babel-jest": "^26.6.3",
     "babel-plugin-root-import": "^6.6.0",
-    "chrt-dotplot": "0.0.2",
     "eslint": "^7.26.0",
     "husky": "~4.3.0",
     "jest": "^26.6.3",
@@ -72,6 +71,7 @@
     "chrt-line": "^0.0.22",
     "chrt-markers": "^0.0.15",
     "chrt-points": "^0.0.17",
-    "chrt-set": "0.0.1"
+    "chrt-set": "0.0.1",
+    "chrt-dotplot": "0.0.2"
   }
 }
