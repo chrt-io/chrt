@@ -17,7 +17,9 @@ module.exports = {
     [
       '@babel/preset-env',
       {
-        modules: false,
+        targets: {
+          browsers: ['> .5% or last 3 versions, not IE <= 11']
+        }
       }
     ]
   ],
@@ -27,6 +29,15 @@ module.exports = {
       {
         rootPathSuffix: './',
         rootPathPrefix: '~/'
+      }
+    ],
+    [
+      '@babel/plugin-transform-runtime',
+      {
+        absoluteRuntime: false,
+        corejs: false,
+        helpers: true,
+        regenerator: true
       }
     ]
   ]
