@@ -32,11 +32,12 @@ export default async function(container) {
     .add(chrt.xAxis(3).color('#999'))
     .add(chrt.horizontalGrid(5).color('#ddd'))
     .add(
-      chrt.chrtColumns()
-      .fill("#fa5a51")
-      .width(1)
-      .color('#000')
-      .strokeWidth(1)
+      chrt
+        .chrtColumns()
+        .fill('#fa5a51')
+        .width(1)
+        .color('#000')
+        .strokeWidth(1)
     );
   // .add(
   //   new chrtColumns()
