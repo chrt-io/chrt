@@ -53,7 +53,7 @@
     "json2module": "0.0.3",
     "npm-watch": "^0.9.0",
     "rimraf": "^3.0.2",
-    "rollup": "^2.51.1",
+    "rollup": "^2.51.2",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-uglify": "^6.0.4",
@@ -72,9 +72,9 @@
     "chrt-grid": "^0.0.18",
     "chrt-interpolations": "^0.0.9",
     "chrt-label": "^0.0.25",
-    "chrt-line": "^0.0.24",
+    "chrt-line": "^0.0.25",
     "chrt-markers": "^0.0.15",
-    "chrt-points": "^0.0.17",
+    "chrt-points": "^0.0.18",
     "chrt-set": "0.0.1"
   }
 }
