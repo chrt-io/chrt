@@ -75,6 +75,6 @@
     "chrt-line": "^0.0.27",
     "chrt-markers": "^0.0.16",
     "chrt-points": "^0.0.20",
-    "chrt-set": "0.0.1"
+    "chrt-set": "0.0.2"
   }
 }
