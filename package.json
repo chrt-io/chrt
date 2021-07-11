@@ -65,14 +65,14 @@
   ],
   "dependencies": {
     "chrt-annotation": "^0.0.16",
-    "chrt-axis": "^0.0.34",
+    "chrt-axis": "^0.0.35",
     "chrt-bars": "^0.0.35",
     "chrt-core": "^0.0.47",
     "chrt-dotplot": "0.0.2",
     "chrt-grid": "^0.0.18",
     "chrt-interpolations": "^0.0.9",
     "chrt-label": "^0.0.26",
-    "chrt-line": "^0.0.28",
+    "chrt-line": "^0.0.29",
     "chrt-markers": "^0.0.16",
     "chrt-points": "^0.0.20",
     "chrt-set": "0.0.2"
