@@ -1,4 +1,3 @@
-import { uglify } from 'rollup-plugin-uglify';
 import { nodeResolve } from '@rollup/plugin-node-resolve';
 import json from '@rollup/plugin-json';
 import { terser } from 'rollup-plugin-terser';
@@ -36,7 +35,6 @@ export default [
     plugins: [
       nodeResolve(),
       json(),
-      uglify(),
       terser({
         output: {
           preamble: `// ${meta.homepage} v${
