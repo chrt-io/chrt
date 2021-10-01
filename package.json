@@ -6,6 +6,17 @@
   "unpkg": "dist/chrt.min.js",
   "jsdelivr": "dist/chrt.min.js",
   "module": "index.js",
+  "exports": {
+    "umd": "./dist/chrt.min.js",
+    "default": "./index.js"
+  },
+  "keywords": [
+    "chrt",
+    "charts",
+    "dom",
+    "visualization",
+    "svg",
+  ],
   "watch": {
     "build": {
       "extensions": "js,jsx"
