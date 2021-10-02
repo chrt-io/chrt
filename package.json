@@ -2,16 +2,21 @@
   "name": "chrt",
   "version": "0.0.104",
   "description": "Chrt is a library for creating charts in the most fun way.",
-  "main": "./index.js",
+  "main": "src/index.js",
   "unpkg": "dist/chrt.min.js",
   "jsdelivr": "dist/chrt.min.js",
-  "module": "./index.js",
+  "module": "src/index.js",
   "exports": {
     "umd": "./dist/chrt.min.js",
     "import": "./dist/chrt.min.js",
     "require": "./dist/chrt.node.js",
-    "default": "./index.js"
+    "default": "./src/index.js"
   },
+  "type": "module",
+  "files": [
+    "dist/**/*.js",
+    "src/**/*.js"
+  ],
   "keywords": [
     "chrt",
     "charts",
@@ -88,5 +93,8 @@
     "chrt-markers": "^0.0.17",
     "chrt-points": "^0.0.22",
     "chrt-set": "0.0.5"
+  },
+  "engines": {
+    "node": ">=12"
   }
 }

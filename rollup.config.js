@@ -5,7 +5,7 @@ import * as meta from './package.json';
 
 export default [
   {
-    input: 'index.js',
+    input: 'src/index.js',
     external: Object.keys(meta.dependencies || {}).filter(key =>
       /^chrt-/.test(key)
     ),
@@ -17,7 +17,7 @@ export default [
     }
   },
   {
-    input: 'index.js',
+    input: 'src/index.js',
     plugins: [nodeResolve(), json()],
     output: {
       extend: true,
@@ -31,7 +31,7 @@ export default [
     }
   },
   {
-    input: 'index.js',
+    input: 'src/index.js',
     plugins: [
       nodeResolve(),
       json(),
