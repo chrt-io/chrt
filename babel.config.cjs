@@ -3,13 +3,6 @@ module.exports = {
     test: {
       plugins: [
         '@babel/plugin-transform-modules-commonjs',
-        [
-          'babel-plugin-root-import',
-          {
-            rootPathSuffix: './',
-            rootPathPrefix: '~/'
-          }
-        ]
       ]
     }
   },
@@ -24,13 +17,6 @@ module.exports = {
     ]
   ],
   plugins: [
-    [
-      'babel-plugin-root-import',
-      {
-        rootPathSuffix: './',
-        rootPathPrefix: '~/'
-      }
-    ],
     [
       '@babel/plugin-transform-runtime',
       {

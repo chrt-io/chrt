@@ -4,18 +4,18 @@ import { terser } from 'rollup-plugin-terser';
 import * as meta from './package.json';
 
 export default [
-  {
-    input: 'src/index.js',
-    external: Object.keys(meta.dependencies || {}).filter(key =>
-      /^chrt-/.test(key)
-    ),
-    plugins: [json()],
-    output: {
-      file: 'dist/chrt.node.js',
-      format: 'cjs'
-      // exports: 'named',
-    }
-  },
+  // {
+  //   input: 'src/index.js',
+  //   external: Object.keys(meta.dependencies || {}).filter(key =>
+  //     /^chrt-/.test(key)
+  //   ),
+  //   plugins: [json()],
+  //   output: {
+  //     file: 'dist/chrt.node.cjs',
+  //     format: 'cjs'
+  //     // exports: 'named',
+  //   }
+  // },
   {
     input: 'src/index.js',
     plugins: [nodeResolve(), json()],

@@ -3,13 +3,11 @@
   "version": "0.0.107",
   "description": "Chrt is a library for creating charts in the most fun way.",
   "main": "src/index.js",
+  "module": "src/index.js",
   "unpkg": "dist/chrt.min.js",
   "jsdelivr": "dist/chrt.min.js",
-  "module": "src/index.js",
   "exports": {
     "umd": "./dist/chrt.min.js",
-    "import": "./dist/chrt.min.js",
-    "require": "./dist/chrt.node.js",
     "default": "./src/index.js"
   },
   "type": "module",
@@ -62,10 +60,9 @@
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.5",
     "babel-jest": "^27.2.5",
-    "babel-plugin-root-import": "^6.6.0",
     "babelify": "^10.0.0",
     "budo": "^11.6.4",
-    "eslint": "^7.32.0",
+    "eslint": "^8.0.0",
     "husky": "~7.0.2",
     "jest": "^27.2.5",
     "json2module": "0.0.3",
@@ -77,18 +74,18 @@
     "watch": "^1.0.2"
   },
   "dependencies": {
-    "chrt-annotation": "^0.0.17",
-    "chrt-axis": "^0.0.37",
-    "chrt-bars": "^0.0.37",
-    "chrt-core": "^0.0.47",
-    "chrt-dotplot": "0.0.3",
-    "chrt-grid": "^0.0.20",
-    "chrt-interpolations": "^0.0.9",
-    "chrt-label": "^0.0.32",
-    "chrt-line": "^0.0.31",
-    "chrt-markers": "^0.0.17",
-    "chrt-points": "^0.0.22",
-    "chrt-set": "0.0.5"
+    "chrt-annotation": "^0.0.18",
+    "chrt-axis": "^0.0.38",
+    "chrt-bars": "^0.0.39",
+    "chrt-core": "^0.0.48",
+    "chrt-dotplot": "0.0.4",
+    "chrt-grid": "^0.0.21",
+    "chrt-interpolations": "^0.0.10",
+    "chrt-label": "^0.0.33",
+    "chrt-line": "^0.0.33",
+    "chrt-markers": "^0.0.18",
+    "chrt-points": "^0.0.23",
+    "chrt-set": "0.0.6"
   },
   "engines": {
     "node": ">=12"
