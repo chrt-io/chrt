@@ -80,7 +80,7 @@
     "chrt-bars": "^0.0.40",
     "chrt-core": "^0.0.49",
     "chrt-dotplot": "0.0.5",
-    "chrt-grid": "^0.0.22",
+    "chrt-grid": "^0.0.23",
     "chrt-interpolations": "^0.0.11",
     "chrt-label": "^0.0.34",
     "chrt-line": "^0.0.34",
