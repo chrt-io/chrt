@@ -69,7 +69,7 @@
     "json2module": "0.0.3",
     "npm-watch": "^0.11.0",
     "rimraf": "^3.0.2",
-    "rollup": "^2.58.3",
+    "rollup": "^2.59.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-terser": "^7.0.2",
     "watch": "^1.0.2"
@@ -85,7 +85,7 @@
     "chrt-label": "^0.0.34",
     "chrt-line": "^0.0.34",
     "chrt-markers": "^0.0.19",
-    "chrt-points": "^0.0.24",
+    "chrt-points": "^0.0.25",
     "chrt-set": "0.0.8"
   },
   "engines": {
