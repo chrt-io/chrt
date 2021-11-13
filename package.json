@@ -7,7 +7,6 @@
   "unpkg": "dist/chrt.min.js",
   "jsdelivr": "dist/chrt.min.js",
   "exports": {
-    "./package.json": "./package.json",
     "umd": "./dist/chrt.min.js",
     "default": "./src/index.js"
   },
@@ -79,7 +78,7 @@
     "chrt-annotation": "^0.0.19",
     "chrt-axis": "^0.0.43",
     "chrt-bars": "^0.0.40",
-    "chrt-core": "^0.0.50",
+    "chrt-core": "^0.0.51",
     "chrt-dotplot": "0.0.5",
     "chrt-grid": "^0.0.23",
     "chrt-interpolations": "^0.0.11",
