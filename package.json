@@ -85,7 +85,7 @@
     "chrt-label": "^0.0.34",
     "chrt-line": "^0.0.34",
     "chrt-markers": "^0.0.19",
-    "chrt-points": "^0.0.25",
+    "chrt-points": "^0.0.26",
     "chrt-set": "0.0.8"
   },
   "engines": {
