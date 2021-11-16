@@ -82,7 +82,7 @@
     "chrt-dotplot": "0.0.5",
     "chrt-grid": "^0.0.23",
     "chrt-interpolations": "^0.0.11",
-    "chrt-label": "^0.0.34",
+    "chrt-label": "^0.0.35",
     "chrt-line": "^0.0.34",
     "chrt-markers": "^0.0.19",
     "chrt-points": "^0.0.26",
