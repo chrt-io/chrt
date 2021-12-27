@@ -11,6 +11,7 @@ export * from 'chrt-set';
 export * from 'chrt-annotation';
 export * from 'chrt-interpolations';
 export * from 'chrt-dotplot';
+export * from 'chrt-range';
 
 // TEMPORARY REMOVED THE DEFAULT Chrt() from chrt
 // import Chrt from 'chrt-core';
