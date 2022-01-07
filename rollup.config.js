@@ -1,6 +1,7 @@
 import { nodeResolve } from '@rollup/plugin-node-resolve';
 import json from '@rollup/plugin-json';
 import { terser } from 'rollup-plugin-terser';
+import bundleSize from 'rollup-plugin-bundle-size';
 import * as meta from './package.json';
 
 export default [
@@ -18,7 +19,11 @@ export default [
   // },
   {
     input: 'src/index.js',
-    plugins: [nodeResolve(), json()],
+    plugins: [
+      nodeResolve(),
+      json(),
+      bundleSize()
+    ],
     output: {
       extend: true,
       banner: `// ${meta.homepage} v${
@@ -41,7 +46,8 @@ export default [
             meta.version
           } Copyright ${new Date().getFullYear()} ${meta.author}`
         }
-      })
+      }),
+      bundleSize()
     ],
     output: {
       extend: true,
