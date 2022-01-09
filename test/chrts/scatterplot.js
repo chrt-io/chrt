@@ -35,14 +35,12 @@ export default async function(container) {
     .svg()
     .y([0, 100])
     .add(
-      chrt
-        .yAxis(5)
+      chrt.yAxis(5)
         .setTickPosition('outside')
         .color('#999')
     )
     .add(
-      chrt
-        .xAxis(3)
+      chrt.xAxis(3)
         .color('#999')
         .format(d => {
           //console.log('xaxis',d)
@@ -51,17 +49,15 @@ export default async function(container) {
     )
     .add(chrt.horizontalGrid(5).color('#ddd'))
     .add(
-      chrt
-        .chrtPoints()
-        .size(5)
+      chrt.points()
+        .size(20)
         .opacity(0.5)
         // .fill("#fa5a51")
         // .width(0.1)
         // .color('#000')
         // .strokeWidth(1)
         .add(
-          chrt
-            .chrtLabels()
+          chrt.labels()
             .value(d => {
               // console.log(d)
               return d.x;
@@ -69,7 +65,7 @@ export default async function(container) {
             .align('middle')
             .valign('top')
             .color('#666')
-            .offset(-2, 0)
+            .offset(0, 0)
             .filter((d, i) => {
               // console.log('filter', d, i)
               return d.x > 3;

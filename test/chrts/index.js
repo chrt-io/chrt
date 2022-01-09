@@ -5,3 +5,4 @@ export { default as casesItaly } from './cases-it.js';
 export { default as DotPlot } from './dotplot.js';
 export { default as stackedArea } from './stacked-area-chart.js';
 export { default as stackedBars } from './stacked-area-bars.js';
+export { default as line } from './line.js';

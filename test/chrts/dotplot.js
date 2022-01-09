@@ -31,7 +31,7 @@ export default async function(container) {
     .y(null,null,{scale:'ordinal'})
     .add(
       chrt
-        .chrtDotPlot()
+        .dotPlot()
         .data(data, d => ({
           x: d.x,
           y: d.y,

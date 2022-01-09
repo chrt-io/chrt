@@ -29,9 +29,9 @@ export default async function(container) {
     .add(chrt.xAxis())
     .add(chrt.yAxis())
     .add(
-      chrt.chrtStack()
+      chrt.stack()
         .add(
-          chrt.chrtLine()
+          chrt.line()
             .data(data, d => ({
               x: d.x,
               y: d.y,
@@ -44,7 +44,7 @@ export default async function(container) {
             .fillOpacity(0.5)
         )
         .add(
-          chrt.chrtLine()
+          chrt.line()
             .data(data, d => ({
               x: d.x,
               y: d.y,
@@ -58,7 +58,7 @@ export default async function(container) {
             .fillOpacity(0.5)
         )
         .add(
-          chrt.chrtLine()
+          chrt.line()
             .data(data, d => ({
               x: d.x,
               y: d.y,
