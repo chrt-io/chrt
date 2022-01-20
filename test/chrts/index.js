@@ -6,3 +6,4 @@ export { default as DotPlot } from './dotplot.js';
 export { default as stackedArea } from './stacked-area-chart.js';
 export { default as stackedBars } from './stacked-area-bars.js';
 export { default as line } from './line.js';
+export { default as histograms } from './histograms.js';

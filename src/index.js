@@ -16,6 +16,8 @@ export {
   chrtBars,
   chrtColumns as columns,
   chrtColumns,
+  chrtHistograms as histograms,
+  chrtHistograms,
 } from 'chrt-bars';
 export {
   chrtPoints,
