@@ -52,7 +52,7 @@
   },
   "homepage": "chrt.io",
   "devDependencies": {
-    "@babel/core": "^7.16.10",
+    "@babel/core": "^7.16.12",
     "@babel/plugin-transform-modules-commonjs": "^7.16.8",
     "@babel/plugin-transform-runtime": "^7.16.10",
     "@babel/preset-env": "^7.16.11",
@@ -69,7 +69,7 @@
     "json2module": "0.0.3",
     "npm-watch": "^0.11.0",
     "rimraf": "^3.0.2",
-    "rollup": "^2.65.0",
+    "rollup": "^2.66.0",
     "rollup-plugin-bundle-size": "^1.0.3",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-terser": "^7.0.2",
@@ -86,7 +86,7 @@
     "chrt-label": "^0.0.38",
     "chrt-line": "^0.0.40",
     "chrt-markers": "^0.0.21",
-    "chrt-points": "^0.0.34",
+    "chrt-points": "^0.0.35",
     "chrt-range": "^0.0.4",
     "chrt-set": "0.0.12"
   },
