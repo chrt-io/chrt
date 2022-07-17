@@ -79,7 +79,7 @@
     "chrt-annotation": "^0.0.21",
     "chrt-axis": "^0.0.51",
     "chrt-bars": "^0.0.47",
-    "chrt-core": "^0.0.63",
+    "chrt-core": "^0.0.64",
     "chrt-dotplot": "0.0.7",
     "chrt-grid": "^0.0.26",
     "chrt-interpolations": "^0.0.13",
