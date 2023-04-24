@@ -1,8 +1,10 @@
 import { nodeResolve } from '@rollup/plugin-node-resolve';
 import json from '@rollup/plugin-json';
-import { terser } from 'rollup-plugin-terser';
+import { terser } from '@wwa/rollup-plugin-terser';
 import bundleSize from 'rollup-plugin-bundle-size';
-import * as meta from './package.json';
+import { default as meta } from './package.json' assert {
+  type: 'json'
+};
 
 export default [
   // {
