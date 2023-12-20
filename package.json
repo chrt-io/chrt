@@ -70,14 +70,14 @@
     "json2module": "0.0.3",
     "npm-watch": "^0.11.0",
     "rimraf": "^5.0.5",
-    "rollup": "^4.9.0",
+    "rollup": "^4.9.1",
     "rollup-plugin-bundle-size": "^1.0.3",
     "rollup-plugin-commonjs": "^10.1.0",
     "watch": "^1.0.2"
   },
   "dependencies": {
     "chrt-annotation": "^0.0.22",
-    "chrt-axis": "^0.0.56",
+    "chrt-axis": "^0.0.57",
     "chrt-bars": "^0.0.48",
     "chrt-core": "^0.0.67",
     "chrt-dotplot": "0.0.8",
