@@ -3,6 +3,12 @@
 
 `chrt` is still a **WORK IN PROGRESS**. For better support and documentation, please come back in few months after we will announce the first beta version. For more info mail to sayhi@chrt.io
 
+### Resources
+- [How to install](#how-to-install)
+- [Examples](#examples)
+- [How to build](#how-to-build)
+- [Testing](#testing)
+
 ## How to install
 
 ### Use in vanilla HTML
@@ -59,6 +65,9 @@ After the installation, you can use it as:
 ```javascript
 import * as chrt from 'chrt';
 ```
+
+## Examples
+The easiest way to get started with `chrt` is to explore the [chrt examples](https://observablehq.com/collection/@chrt/chrt) in [Observable](https://observablehq.com/@chrt), where you can fork the code and experiment.
 
 ## How to build
 
