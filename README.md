@@ -1,7 +1,64 @@
 # chrt
-**Chrt** is a library for creating charts in the most fun way.
+**Chrt** is a free, open source JavaScript library with the goal of creating a more spontaneous experience to make charts. Coding with chrt should be as simple as snapping together building blocks, where each block is an element of the chart.
 
-**WORK IN PROGRESS** Please come back in few months after we will announce the first beta version. For more info mail to sayhi@chrt.io
+`chrt` is still a **WORK IN PROGRESS**. For better support and documentation, please come back in few months after we will announce the first beta version. For more info mail to sayhi@chrt.io
+
+## How to install
+
+### Use in vanilla HTML
+In vanilla HTML, you can load `chrt` from a CDN such as jsDelivr or you can download it locally. The following examples show how use `chrt` in your HTML page:
+
+#### ESM+CDN
+```html
+<!DOCTYPE html>
+<div id="container"></div>
+<script type="module">
+    import * as chrt from 'https://cdn.jsdelivr.net/npm/chrt/+esm';
+
+    chrt.Chrt()
+        .add(chrt.line().data([3, 2, 5, 1, 2, 4, 5]))
+        .node(document.getElementById('container'));
+</script>
+```
+
+#### UMD+CDN
+```html
+<!DOCTYPE html>
+<div id="container"></div>
+<script src="https://cdn.jsdelivr.net/npm/chrt@latest"></script>
+<script type="module">
+
+chrt.Chrt()
+  .add(chrt.line().data([3,2,5,1,2,4,5]))
+  .node(document.getElementById("container"))
+
+</script>
+```
+
+#### UMD+Local
+```html
+<!DOCTYPE html>
+<div id="container"></div>
+<script src="chrt.js"></script>
+<script type="module">
+
+chrt.Chrt()
+  .add(chrt.line().data([3,2,5,1,2,4,5]))
+  .node(document.getElementById("container"))
+
+</script>
+```
+
+### Install from npm
+If you’re developing a web application using Node, you can install `chrt` via yarn, npm, or your preferred package manager.
+```bash
+npm install chrt
+```
+
+After the installation, you can use it as:
+```javascript
+import * as chrt from 'chrt';
+```
 
 ## How to build
 
@@ -60,11 +117,10 @@ import * as chrt from 'chrt';
 ```
 
 
-
 ## Testing
 
 ### Unit test with Jest
-Run `npm run test` to run all the tests on the code with Jest.
+Each submodule of `chrt` can be tested via Jest:
 ```
 npm run test
 ```
