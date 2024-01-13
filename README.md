@@ -1,7 +1,7 @@
 # chrt
 **Chrt** is a free, open source JavaScript library with the goal of creating a more spontaneous experience to make charts. Coding with chrt should be as simple as snapping together building blocks, where each block is an element of the chart.
 
-`chrt` is still a **WORK IN PROGRESS**. For better support and documentation, please come back in few months after we will announce the first beta version. For more info mail to sayhi@chrt.io
+`chrt` is still a _WORK IN PROGRESS_, for better support and documentation, please come back in few months after we will announce the first beta version. For more info mail to sayhi@chrt.io
 
 ### Resources
 - [How to install](#how-to-install)
