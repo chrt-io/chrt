@@ -1,6 +1,6 @@
 {
   "name": "chrt",
-  "version": "0.0.161",
+  "version": "0.0.162",
   "description": "Chrt is a library for creating charts in the most fun way.",
   "main": "src/index.js",
   "module": "src/index.js",
@@ -11,8 +11,17 @@
     "default": "./src/index.js"
   },
   "type": "module",
-  "files": ["dist/**/*.js", "./index.js"],
-  "keywords": ["chrt", "charts", "dom", "visualization", "svg"],
+  "files": [
+    "dist/**/*.js",
+    "./index.js"
+  ],
+  "keywords": [
+    "chrt",
+    "charts",
+    "dom",
+    "visualization",
+    "svg"
+  ],
   "watch": {
     "build": {
       "extensions": "js,jsx"
