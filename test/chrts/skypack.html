@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Skypack</title>
+    </head>
+    <body>
+        <h1>Skypack</h1>
+        <div id="chart1"></div>
+        <div id="chart2"></div>
+        <script type="module">
+            import * as d3 from "https://cdn.skypack.dev/d3";
+            import * as chrt from "https://cdn.skypack.dev/chrt";
+            console.log(chrt.version);
+
+            chrt.Chrt()
+                .node(document.querySelector("#chart1"))
+                .data([1, 3, 2, 5, 4, 6])
+                .add(chrt.xAxis())
+                .add(chrt.yAxis())
+                .add(chrt.line());
+        </script>
+
+        <script type="module">
+            import {
+                Chrt,
+                xAxis,
+                yAxis,
+                line,
+                version,
+            } from "https://cdn.skypack.dev/chrt";
+            console.log(version);
+
+            Chrt()
+                .node(document.querySelector("#chart2"))
+                .data([1, 3, 2, 5, 4, 6])
+                .add(xAxis())
+                .add(yAxis())
+                .add(line());
+        </script>
+    </body>
+</html>

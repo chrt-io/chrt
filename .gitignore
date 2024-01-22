@@ -6,3 +6,4 @@ dist
 
 # Tests
 coverage
+.DS_Store
