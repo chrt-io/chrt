@@ -7,18 +7,6 @@ import { default as meta } from './package.json' assert {
 };
 
 export default [
-  // {
-  //   input: 'src/index.js',
-  //   external: Object.keys(meta.dependencies || {}).filter(key =>
-  //     /^chrt-/.test(key)
-  //   ),
-  //   plugins: [json()],
-  //   output: {
-  //     file: 'dist/chrt.node.cjs',
-  //     format: 'cjs'
-  //     // exports: 'named',
-  //   }
-  // },
   {
     input: 'src/index.js',
     plugins: [
@@ -58,5 +46,23 @@ export default [
       indent: false,
       name: 'chrt'
     }
-  }
+  },
+  {
+    input: 'src/index.js',
+    plugins: [
+      nodeResolve(),
+      json(),
+      bundleSize()
+    ],
+    output: {
+      extend: true,
+      banner: `// ${meta.homepage} v${
+        meta.version
+      } Copyright ${new Date().getFullYear()} ${meta.author}`,
+      file: 'dist/chrt.esm.js',
+      format: 'esm',
+      indent: false,
+      name: 'chrt'
+    }
+  },
 ];
