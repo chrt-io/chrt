@@ -38,6 +38,10 @@ export default async function(container) {
         .width(1)
         .color('#000')
         .strokeWidth(1)
+        .add(
+          chrt.interactions()
+            .callback('mousemove', d => console.log('move', d))
+        )
     );
   // .add(
   //   new chrtColumns()
