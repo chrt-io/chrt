@@ -11,17 +11,8 @@
     "default": "./src/index.js"
   },
   "type": "module",
-  "files": [
-    "dist/**/*.js",
-    "./index.js"
-  ],
-  "keywords": [
-    "chrt",
-    "charts",
-    "dom",
-    "visualization",
-    "svg"
-  ],
+  "files": ["dist/**/*.js", "./index.js"],
+  "keywords": ["chrt", "charts", "dom", "visualization", "svg"],
   "watch": {
     "build": {
       "extensions": "js,jsx"
@@ -90,8 +81,7 @@
     "chrt-markers": "^0.0.22",
     "chrt-points": "^0.0.39",
     "chrt-range": "^0.0.5",
-    "chrt-set": "0.0.12",
-    "npm": "^10.4.0"
+    "chrt-set": "0.0.12"
   },
   "engines": {
     "node": ">=12"
