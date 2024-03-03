@@ -55,11 +55,6 @@ export {
   chrtVerticalRange as verticalRange,
 } from 'chrt-range';
 
-export {
-  chrtInteractions,
-  chrtInteractions as interactions,
-} from 'chrt-interactions';
-
 // TEMPORARY REMOVED THE DEFAULT Chrt() from chrt
 // import Chrt from 'chrt-core';
 // export default Chrt;
