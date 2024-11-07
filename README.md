@@ -8,10 +8,46 @@
 
 ### Resources
 
+- [Modules](#modules)
 - [How to install](#how-to-install)
 - [Examples](#examples)
 - [How to build](#how-to-build)
 - [Testing](#testing)
+
+### Modules
+
+chrt is composed of several modules, each focusing on specific functionality:
+
+#### Core and Base Functionality
+
+- [chrt-core](https://github.com/chrt/chrt-core) - Core functionality and chart management
+- [chrt-object](https://github.com/chrt/chrt-object) - Base object class for all components
+
+#### Chart Components
+
+- [chrt-line](https://github.com/chrt/chrt-line) - Line charts
+- [chrt-bars](https://github.com/chrt/chrt-bars) - Bar and column charts
+- [chrt-points](https://github.com/chrt/chrt-points) - Scatter plots and point-based visualizations
+- [chrt-dotplot](https://github.com/chrt/chrt-dotplot) - Dot plot visualizations
+
+#### Axes and Grid
+
+- [chrt-axis](https://github.com/chrt/chrt-axis) - Axis components
+- [chrt-grid](https://github.com/chrt/chrt-grid) - Grid lines
+
+#### Enhancement Components
+
+- [chrt-label](https://github.com/chrt/chrt-label) - Text labels and annotations
+- [chrt-markers](https://github.com/chrt/chrt-markers) - Point markers and indicators
+- [chrt-range](https://github.com/chrt/chrt-range) - Range and threshold indicators
+- [chrt-annotation](https://github.com/chrt/chrt-annotation) - Chart annotations
+
+#### Utilities
+
+- [chrt-set](https://github.com/chrt/chrt-set) - Grouping and stacking functionality
+- [chrt-interpolations](https://github.com/chrt/chrt-interpolations) - Line interpolation methods
+
+Each module is independently maintained and documented. Visit the individual repositories for detailed documentation and examples.
 
 ## How to install
 
@@ -78,7 +114,24 @@ import * as chrt from "chrt";
 
 ## Examples
 
-The easiest way to get started with `chrt` is to explore the [chrt examples](https://observablehq.com/collection/@chrt/chrt) in [Observable](https://observablehq.com/@chrt), where you can fork the code and experiment.
+```js
+import * as chrt from "chrt";
+
+// Create a basic line chart
+const chart = chrt
+  .Chrt()
+  .node(document.querySelector("#chart"))
+  .size(600, 400)
+  .data([1, 2, 3, 4, 5])
+  .add(chrt.xAxis())
+  .add(chrt.yAxis())
+  .add(chrt.line());
+```
+
+For detailed documentation and examples, visit:
+
+- [Introducing Chrt](https://observablehq.com/@chrt/introducing-chrt?collection=@chrt/chrt)
+- [Chrt Examples Collection](https://observablehq.com/collection/@chrt/chrt)
 
 ## How to build
 
@@ -150,14 +203,4 @@ After having installed or sym-linked the node you can use it as usual
 
 ```
 import * as chrt from 'chrt';
-```
-
-## Testing
-
-### Unit test with Jest
-
-Each submodule of `chrt` can be tested via Jest:
-
-```
-npm run test
 ```
