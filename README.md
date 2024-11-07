@@ -20,32 +20,46 @@ chrt is composed of several modules, each focusing on specific functionality:
 
 #### Core and Base Functionality
 
-- [chrt-core](https://github.com/chrt/chrt-core) - Core functionality and chart management
-- [chrt-object](https://github.com/chrt/chrt-object) - Base object class for all components
+- [chrt-core](```javascript
+  https://github.com/chrt-io/chrt-core) - Core functionality and chart management
+- [chrt-object](```javascript
+  https://github.com/chrt-io/chrt-object) - Base object class for all components
 
 #### Chart Components
 
-- [chrt-line](https://github.com/chrt/chrt-line) - Line charts
-- [chrt-bars](https://github.com/chrt/chrt-bars) - Bar and column charts
-- [chrt-points](https://github.com/chrt/chrt-points) - Scatter plots and point-based visualizations
-- [chrt-dotplot](https://github.com/chrt/chrt-dotplot) - Dot plot visualizations
+- [chrt-line](```javascript
+  https://github.com/chrt-io/chrt-line) - Line charts
+- [chrt-bars](```javascript
+  https://github.com/chrt-io/chrt-bars) - Bar and column charts
+- [chrt-points](```javascript
+  https://github.com/chrt-io/chrt-points) - Scatter plots and point-based visualizations
+- [chrt-dotplot](```javascript
+  https://github.com/chrt-io/chrt-dotplot) - Dot plot visualizations
 
 #### Axes and Grid
 
-- [chrt-axis](https://github.com/chrt/chrt-axis) - Axis components
-- [chrt-grid](https://github.com/chrt/chrt-grid) - Grid lines
+- [chrt-axis](```javascript
+  https://github.com/chrt-io/chrt-axis) - Axis components
+- [chrt-grid](```javascript
+  https://github.com/chrt-io/chrt-grid) - Grid lines
 
 #### Enhancement Components
 
-- [chrt-label](https://github.com/chrt/chrt-label) - Text labels and annotations
-- [chrt-markers](https://github.com/chrt/chrt-markers) - Point markers and indicators
-- [chrt-range](https://github.com/chrt/chrt-range) - Range and threshold indicators
-- [chrt-annotation](https://github.com/chrt/chrt-annotation) - Chart annotations
+- [chrt-label](```javascript
+  https://github.com/chrt-io/chrt-label) - Text labels and annotations
+- [chrt-markers](```javascript
+  https://github.com/chrt-io/chrt-markers) - Point markers and indicators
+- [chrt-range](```javascript
+  https://github.com/chrt-io/chrt-range) - Range and threshold indicators
+- [chrt-annotation](```javascript
+  https://github.com/chrt-io/chrt-annotation) - Chart annotations
 
 #### Utilities
 
-- [chrt-set](https://github.com/chrt/chrt-set) - Grouping and stacking functionality
-- [chrt-interpolations](https://github.com/chrt/chrt-interpolations) - Line interpolation methods
+- [chrt-set](```javascript
+  https://github.com/chrt-io/chrt-set) - Grouping and stacking functionality
+- [chrt-interpolations](```javascript
+  https://github.com/chrt-io/chrt-interpolations) - Line interpolation methods
 
 Each module is independently maintained and documented. Visit the individual repositories for detailed documentation and examples.
 
